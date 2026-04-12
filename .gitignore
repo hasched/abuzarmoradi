@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Angular
+dist/
+.angular/
+
+# Java / Maven
+target/
+*.class
+*.jar
+
+# IDE
+.vscode/settings.json
+.idea/
+*.iml
+
+# Environment
+.env
+.env.local
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
