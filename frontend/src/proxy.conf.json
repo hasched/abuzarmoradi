@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "http://localhost:8081",
+    "target": "https://abuzarmoradi-production.up.railway.app/api",
     "secure": false,
     "changeOrigin": true
   }
