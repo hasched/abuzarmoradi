@@ -61,16 +61,17 @@ CREATE TABLE IF NOT EXISTS contact_messages (
 -- ============================================================
 
 INSERT INTO skills (name, category, proficiency, icon_key, sort_order) VALUES
-('Java',         'Backend',  95, 'java',       1),
-('Quarkus',      'Backend',  90, 'quarkus',    2),
-('Spring Boot',  'Backend',  85, 'spring',     3),
-('PostgreSQL',   'Database', 88, 'postgres',   4),
-('Redis',        'Database', 75, 'redis',      5),
-('Angular',      'Frontend', 85, 'angular',    6),
-('TypeScript',   'Frontend', 88, 'typescript', 7),
-('Docker',       'DevOps',   82, 'docker',     8),
-('Kubernetes',   'DevOps',   70, 'kubernetes', 9),
-('Git',          'DevOps',   95, 'git',        10)
+('Java',         'Backend',  90, 'java',       1),
+('Quarkus',      'Backend',  80, 'quarkus',    2),
+('Spring Boot',  'Backend',  55, 'spring',     3),
+('Angular',      'Frontend', 75, 'angular',    6),
+('React',   'Frontend', 78, 'typescript', 7),
+('Docker',       'DevOps',   72, 'docker',     8),
+('Kubernetes',   'DevOps',   85, 'kubernetes', 9),
+('OpenShift',   'DevOps',   72, 'os', 9),
+('Git',          'DevOps',   95, 'git',        10),
+('Oracle SQL Developer',   'Database', 78, 'sql',   12),
+('PostgreSQL',   'Database', 68, 'postgres',   13)
 ON CONFLICT DO NOTHING;
 
 INSERT INTO projects (title, slug, description, long_description, tech_stack, github_url, live_url, featured, sort_order) VALUES

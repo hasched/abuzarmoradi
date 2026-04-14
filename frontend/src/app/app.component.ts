@@ -15,7 +15,7 @@ import { CommonModule } from '@angular/common';
     <nav class="nav" [class.nav--scrolled]="scrolled()">
       <div class="nav__inner container">
         <a routerLink="/" class="nav__logo">
-          <span class="nav__logo-bracket">[</span>am<span class="nav__logo-bracket">]</span>
+          <!-- <span class="nav__logo-bracket"></span> Abuzar Moradi — Software Developer <span class="nav__logo-bracket"></span> -->
         </a>
 
         <button class="nav__burger" (click)="menuOpen.set(!menuOpen())" [class.open]="menuOpen()" aria-label="Menu">
@@ -24,8 +24,8 @@ import { CommonModule } from '@angular/common';
 
         <ul class="nav__links" [class.open]="menuOpen()">
           <li><a routerLink="/"         routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" (click)="menuOpen.set(false)">Home</a></li>
-          <li><a routerLink="/projects" routerLinkActive="active" (click)="menuOpen.set(false)">Projects</a></li>
-          <li><a routerLink="/blog"     routerLinkActive="active" (click)="menuOpen.set(false)">Blog</a></li>
+          <!-- <li><a routerLink="/projects" routerLinkActive="active" (click)="menuOpen.set(false)">Projects</a></li>
+          <li><a routerLink="/blog"     routerLinkActive="active" (click)="menuOpen.set(false)">Blog</a></li> -->
           <li><a routerLink="/contact"  routerLinkActive="active" (click)="menuOpen.set(false)">Contact</a></li>
           <li><a href="https://github.com/abuzarmoradi" target="_blank" class="nav__github">GitHub ↗</a></li>
         </ul>
@@ -41,13 +41,13 @@ import { CommonModule } from '@angular/common';
     <footer class="footer">
       <div class="container">
         <div class="footer__inner">
-          <span class="footer__copy">© 2025 Abuzar Moradi</span>
-          <span class="footer__stack">Built with Quarkus · Angular · PostgreSQL</span>
+          <span class="footer__copy">© 2026 Abuzar Moradi</span>
+          <!-- <span class="footer__stack">&#64;abaaazar</span>
           <div class="footer__links">
-            <a href="https://github.com/abuzarmoradi" target="_blank">GitHub</a>
-            <a href="https://linkedin.com/in/abuzarmoradi" target="_blank">LinkedIn</a>
-            <a href="mailto:hello&#64;abuzarmoradi.com">Email</a>
-          </div>
+            <a href="https://github.com/hasched" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/abuzar-moradi-568674268/" target="_blank">LinkedIn</a>
+            <a href="mailto:abuzarmoradi&#64;hotmail.com">Email</a> 
+          </div>-->
         </div>
       </div>
     </footer>

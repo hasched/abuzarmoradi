@@ -25,13 +25,13 @@ import { ApiService } from '../../core/services/api.service';
             <div class="contact-info__block">
               <p class="label">Email</p>
               <a href="mailto:hello@abuzarmoradi.com" class="contact-info__link">
-                hello&#64;abuzarmoradi.com
+                abuzarmoradi&#64;hotmail.com
               </a>
             </div>
             <div class="contact-info__block">
               <p class="label">Online</p>
-              <a href="https://github.com/abuzarmoradi" target="_blank" class="contact-info__link">GitHub ↗</a>
-              <a href="https://linkedin.com/in/abuzarmoradi" target="_blank" class="contact-info__link">LinkedIn ↗</a>
+              <a href="https://github.com/hasched" target="_blank" class="contact-info__link">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/abuzar-moradi-568674268/" target="_blank" class="contact-info__link">LinkedIn ↗</a>
             </div>
             <div class="contact-info__block">
               <p class="label">Currently</p>

@@ -15,27 +15,28 @@ import { ApiService, Project, Skill } from '../../core/services/api.service';
       <div class="hero__glow hero__glow--2"></div>
 
       <div class="container hero__content">
-        <div class="hero__eyebrow label">
+        <!-- <div class="hero__eyebrow label">
           <span class="hero__dot"></span>Available for projects
-        </div>
+        </div> -->
 
         <h1 class="hero__title">
           <span class="hero__title-line">Building things</span>
           <span class="hero__title-line hero__title-line--accent">that matter.</span>
         </h1>
 
-        <p class="hero__sub">
-          Full-Stack Software Engineer. I craft high-performance backends with
-          <em>Quarkus</em>, reactive frontends with <em>Angular</em>, and
-          scalable data models with <em>PostgreSQL</em>.
-        </p>
+      <p class="hero__sub">
+        Software Developer with a strong focus on Java backend development using
+        <em>Quarkus</em>, building modern and responsive frontends with <em>Angular</em> and
+        <em>React</em>, and working with enterprise-grade databases and CI/CD pipelines
+        to deliver scalable, production-ready applications.
+      </p>
 
         <div class="hero__ctas">
-          <a routerLink="/projects" class="btn btn--primary">View Projects</a>
+          <!-- <a routerLink="/projects" class="btn btn--primary">View Projects</a> -->
           <a routerLink="/contact"  class="btn btn--ghost">Let's Talk ↗</a>
         </div>
 
-        <div class="hero__stats">
+        <!-- <div class="hero__stats">
           <div class="hero__stat">
             <span class="hero__stat-num">5+</span>
             <span class="hero__stat-label">Years Engineering</span>
@@ -48,7 +49,7 @@ import { ApiService, Project, Skill } from '../../core/services/api.service';
             <span class="hero__stat-num">∞</span>
             <span class="hero__stat-label">Coffee Consumed</span>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <div class="hero__scroll">
@@ -63,29 +64,32 @@ import { ApiService, Project, Skill } from '../../core/services/api.service';
         <div class="about__grid">
           <div class="about__left">
             <p class="label">About Me</p>
-            <h2 class="about__heading">Engineer by craft.<br>Designer by taste.</h2>
+            <h2 class="about__heading">Software developer.<br>Problem solver. Traveler.</h2>
           </div>
           <div class="about__right">
             <p>
-              I'm Abuzar — a software engineer who obsesses over the full stack.
-              From architecting reactive microservices in <strong>Quarkus</strong> to
-              sculpting pixel-perfect UIs in <strong>Angular</strong>, I care about
-              every layer of the system.
+              I'm Abuzar — a software developer with a B.Sc. in Computer Science from 
+              Hochschule Coburg and hands-on experience building backend services with 
+              <strong>Java</strong> and <strong>Quarkus</strong> at HUK-Coburg. I also work with 
+              <strong>Angular</strong> and <strong>React</strong> for frontend components, and I'm 
+              comfortable with the full development cycle — from requirements to deployment on 
+              JBoss servers and <strong>OpenShift</strong>.
             </p>
             <p>
-              I believe great software is fast, readable, and honest. I've built
-              APIs that handle tens of thousands of requests per second, dashboards
-              that surface real-time insights, and systems that engineers actually
-              enjoy working in.
+              I value clean, maintainable code and pragmatic solutions. I've worked with 
+              CI/CD pipelines using Jenkins and GitLab, done code reviews and documentation in Confluence, 
+              and collaborated in Scrum teams. Before my current role, I gained experience 
+              in Python test automation through internship at TraceTronic and IT support at KPMG in Munich.
             </p>
             <p>
-              When I'm not coding, I'm reading about distributed systems, tinkering
-              with hardware, or trying to make the perfect espresso.
+              When I'm not coding, I enjoy traveling the world, collecting artworks, and going to the gym. I speak German, English, Farsi fluently, 
+              and basic French.
             </p>
             <div class="about__links">
               <a href="/assets/cv.pdf" target="_blank" class="btn btn--ghost">Download CV ↓</a>
             </div>
           </div>
+
         </div>
       </div>
     </section>
@@ -122,7 +126,7 @@ import { ApiService, Project, Skill } from '../../core/services/api.service';
     </section>
 
     <!-- ===================== FEATURED PROJECTS ===================== -->
-    <section class="section featured-section">
+    <!-- <section class="section featured-section">
       <div class="container">
         <div class="section-header">
           <div>
@@ -166,10 +170,10 @@ import { ApiService, Project, Skill } from '../../core/services/api.service';
           </div>
         }
       </div>
-    </section>
+    </section> -->
 
     <!-- ===================== CTA ===================== -->
-    <section class="section cta-section">
+    <!-- <section class="section cta-section">
       <div class="container">
         <div class="cta-box">
           <div class="cta-box__glow"></div>
@@ -179,7 +183,7 @@ import { ApiService, Project, Skill } from '../../core/services/api.service';
           <a routerLink="/contact" class="btn btn--primary">Get in Touch →</a>
         </div>
       </div>
-    </section>
+    </section> -->
   `,
   styles: [`
     /* Hero */
