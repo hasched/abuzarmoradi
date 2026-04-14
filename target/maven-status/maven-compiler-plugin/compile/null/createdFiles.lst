@@ -1,0 +1,9 @@
+com/abuzar/model/Project.class
+com/abuzar/dto/ContactRequest.class
+com/abuzar/model/ContactMessage.class
+com/abuzar/model/Skill.class
+com/abuzar/model/BlogPost.class
+com/abuzar/resource/SkillResource.class
+com/abuzar/resource/ContactResource.class
+com/abuzar/resource/BlogResource.class
+com/abuzar/resource/ProjectResource.class
