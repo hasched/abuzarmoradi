@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://YOUR_BACKEND_URL' // Replace with your Railway/Render URL
+  apiUrl: 'https://abuzarmoradi-production.up.railway.app/api' // Replace with your Railway/Render URL
 };
