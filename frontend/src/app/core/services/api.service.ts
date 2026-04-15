@@ -1,54 +1,14 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from '../../environments/environment';  // ADD THIS LINE
 
-export interface Project {
-  id: string;
-  title: string;
-  slug: string;
-  description: string;
-  longDescription: string;
-  techStack: string[];
-  githubUrl: string;
-  liveUrl: string;
-  imageUrl: string;
-  featured: boolean;
-  sortOrder: number;
-  createdAt: string;
-}
-
-export interface BlogPost {
-  id: string;
-  title: string;
-  slug: string;
-  excerpt: string;
-  content: string;
-  tags: string[];
-  published: boolean;
-  readingTimeMinutes: number;
-  createdAt: string;
-}
-
-export interface Skill {
-  id: string;
-  name: string;
-  category: string;
-  proficiency: number;
-  iconKey: string;
-  sortOrder: number;
-}
-
-export interface ContactRequest {
-  name: string;
-  email: string;
-  subject: string;
-  message: string;
-}
+// ... interfaces remain the same ...
 
 @Injectable({ providedIn: 'root' })
 export class ApiService {
   private http = inject(HttpClient);
-  private base = '/api';
+  private base = environment.apiUrl;  // CHANGE THIS LINE
 
   getProjects(featured?: boolean): Observable<Project[]> {
     const url = featured ? `${this.base}/projects?featured=true` : `${this.base}/projects`;
