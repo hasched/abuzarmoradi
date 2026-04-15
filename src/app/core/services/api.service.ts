@@ -48,7 +48,8 @@ export interface ContactRequest {
 @Injectable({ providedIn: 'root' })
 export class ApiService {
   private http = inject(HttpClient);
-  private base = '/api';
+  // HARDCODE THE BACKEND URL DIRECTLY
+  private base = 'https://abuzarmoradi-production.up.railway.app/api';
 
   getProjects(featured?: boolean): Observable<Project[]> {
     const url = featured ? `${this.base}/projects?featured=true` : `${this.base}/projects`;
