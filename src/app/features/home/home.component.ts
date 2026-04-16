@@ -58,7 +58,7 @@ import { ApiService, Project, Skill } from '../../core/services/api.service';
       </div>
     </section>
 
-    <!-- ===================== ABOUT ===================== -->
+    <!-- ===================== ABOUT ===================== 
     <section class="section about">
       <div class="container">
         <div class="about__grid">
@@ -92,7 +92,7 @@ import { ApiService, Project, Skill } from '../../core/services/api.service';
 
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- ===================== SKILLS ===================== -->
     <section class="section skills-section">
